@@ -1,0 +1,27 @@
+Avatar Chatting Game
+--------------------
+It is something which i wanted to try out for a long while.
+I made a server about "WhoRU" but i never did a client. 
+
+This task is not a small tasks but i want to break down to a really small game this week.
+
+So in the prototype Version of the "Avatar Chatting Game" i want to explore the following features.
+
+- Moving a 3D Character with a 3rd Person Camera around (clicking on ground "walks" to a position)
+- If possible: write a really small server that handles socket connections and display other avatars and updates.
+
+- Server Features (and client Packets)
+  - Client connect generates username
+  - Client send MoveToPos Packet to Server
+  - Server distribute this packet to all connected clients (but not the own client)
+  - If client disconnect, Server send disconnect to all Players, Client needs to delete the PlayerView (based on the Username)
+  - If client connect, the new player needs to be spawned to all other clients
+  - (Optional if we have time) Dispatch Chatmessages to all clients
+
+- Client Features:
+   - Simple World in 3D (stolen somewhere lol)
+   - Avatar Prefab with Scripts
+   - 3rd Person Controller with Mouse Click
+   - The "MoveTo" Position must be send to Server to dispatch to all clients
+   - (Optional) Implement a Textbox to enter Chatmessage and an another where it receives
+

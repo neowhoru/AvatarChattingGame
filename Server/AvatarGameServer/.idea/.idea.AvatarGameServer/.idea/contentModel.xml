@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Dropbox\games\unity\Game A Week Challenge\Week16\Server\AvatarGameServer" t="IncludeFlat">
+      <e p="AvatarGameServer" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="AvatarGameServer.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Constants.cs" t="Include" />
+        <e p="GameClient.cs" t="Include" />
+        <e p="GameServer.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="PacketUtils" t="Include">
+          <e p="PacketContent.cs" t="Include" />
+          <e p="PacketReader.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="utils" t="Include">
+          <e p="ArrayUtils.cs" t="Include" />
+          <e p="DynamicArray.cs" t="Include" />
+          <e p="Maths.cs" t="Include" />
+          <e p="NumericalUtils.cs" t="Include" />
+          <e p="StringUtils.cs" t="Include" />
+          <e p="TimeUtils.cs" t="Include" />
+        </e>
+      </e>
+      <e p="AvatarGameServer.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="C:\Users\chatm\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\chatm\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_AvatarGameServer.-1816123679.00" t="ExcludeRecursive" />
+  </component>
+</project>
